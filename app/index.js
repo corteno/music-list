@@ -1,6 +1,6 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
-var VideoInput = require('./components/input')
+var VideoInput = require('./containers/YoutubeInputContainer');
 
 var app = (
     <div>
