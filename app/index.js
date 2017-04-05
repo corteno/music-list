@@ -1,11 +1,9 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
-var VideoInput = require('./containers/YoutubeInputContainer');
+var AppContainer = require('./containers/AppContainer');
 
 var app = (
-    <div>
-        <VideoInput />
-    </div>
+    <AppContainer/>
 );
 
 
